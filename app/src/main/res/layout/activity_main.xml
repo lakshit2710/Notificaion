@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@mipmap/aboutduc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.group.notificaion2.MainActivity">
+
+
+    <Button
+        android:id="@+id/buttong"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/buttoni"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/buttoni"
+        android:layout_marginTop="100dp"
+        android:background="@mipmap/google"
+        android:textColor="#fbff0004"
+        android:textSize="35dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/buttonf"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_alignTop="@+id/buttong"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+
+        android:background="@mipmap/facebookicon"
+
+        android:textColor="#fbff0004"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/buttoni"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttong"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="79dp"
+        android:background="@mipmap/instagram"
+
+        android:textColor="#fbff0004"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/buttont"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+
+        android:layout_alignLeft="@+id/textView2"
+
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignTop="@+id/buttoni"
+        android:background="@mipmap/twitter"
+        android:textColor="#fbff0004"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/buttong"
+        android:layout_alignStart="@+id/buttong"
+        android:layout_below="@+id/buttong"
+        android:layout_marginTop="12dp"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:text="GOOGLE" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:textSize="25dp"
+        android:textStyle="italic"
+
+        android:layout_alignLeft="@+id/buttonf"
+        android:layout_alignStart="@+id/buttonf"
+        android:layout_alignTop="@+id/textView"
+        android:text="FACEBOOK" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/buttoni"
+        android:layout_alignStart="@+id/buttoni"
+        android:layout_below="@+id/buttoni"
+        android:layout_marginTop="14dp"
+        android:textSize="22dp"
+        android:textStyle="italic"
+
+        android:text="INSTAGRAM" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/buttont"
+        android:layout_alignStart="@+id/buttont"
+        android:layout_alignTop="@+id/textView3"
+        android:text="TWITTER"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        />
+</RelativeLayout>
